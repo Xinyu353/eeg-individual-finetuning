@@ -1,0 +1,31 @@
+# Code-only repository: ignore files unless explicitly allowed below.
+*
+!*/
+!*.py
+!README.md
+!requirements.txt
+!.gitignore
+
+# Local environments, caches, data, models, and generated results.
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mpl_tmp/
+.env*
+data/
+participant_data/
+real_EEG_pretrained_model/
+finetuned*/
+results/
+outputs/
+models/
+checkpoints/
+generated_data/
+visual/
+pretrained_erp_comparison/
+participant_distributions/
+real_ot/
+ot_feature/
+mw_feature/
+selected_features/
